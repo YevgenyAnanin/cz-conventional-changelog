@@ -77,7 +77,7 @@ module.exports = function (options) {
         }
       ]).then(function(answers) {
 
-        var maxLineWidth = 100;
+        var maxLineWidth = 80;
 
         var wrapOptions = {
           trim: true,
